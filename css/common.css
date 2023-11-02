@@ -242,6 +242,7 @@ img {
 #controls input {
   border-radius: 8px;
   border: 1px solid #808080;
+  outline: transparent;
 
   font-size: 16px;
   line-height: 1.5;
@@ -249,6 +250,10 @@ img {
   text-align: center;
 
   padding: 5px 16px;
+}
+
+#controls input:focus {
+  border: 1px solid #000;
 }
 
 #boxes {
