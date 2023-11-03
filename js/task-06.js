@@ -6,6 +6,7 @@ const boxes = document.querySelector('#boxes');
 buttonCreate.addEventListener('click', () => {
   const amount = numberValue.value;
 
+  // check if the input number is greater than 100 or less than 1
   if (numberValue.value >= Number(numberValue.min) && numberValue.value <= Number(numberValue.max)) {
     createBoxes(amount);
   }
