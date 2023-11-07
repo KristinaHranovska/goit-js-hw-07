@@ -8,6 +8,7 @@ const sendUserInfo = (event) => {
 
     if (!login || !password) {
         alert('All form fields must be filled in');
+        return;
     }
 
     const userInfo = {};
